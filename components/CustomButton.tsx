@@ -12,7 +12,7 @@ const CustomButton: React.FC<ButtonInterface> = ({
   return (
     <>
       <button
-        className=" hero_submit-btn-mobile  md:hero_submit-btn hover:bg-pod-green-light md:absolute  md:top-0 md:right-0  xl:py-[8px]  "
+        className="hero_submit-btn-mobile  md:hero_submit-btn hover:bg-pod-green-light md:absolute  md:top-0 md:right-0  xl:py-[8px]"
         type={"button"}
         onClick={() => onClickHandler()}
       >

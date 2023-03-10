@@ -30,10 +30,10 @@ const Info = () => {
         {/* Supports */}
         <div className="flex flex-wrap  mb-5 md:justify-start gap-5 mt-[10%] md:w-full  xl:gap-10 xl:w-[85%] lg:w-full lg:gap-10 lg:justify-start">
           <div className='mb-[15%] flex flex-wrap justify-start gap-6 items-center '>
-          <img src="/Images/spotify.svg" />
-          <img src="/Images/apple.svg" />
-          <img src="/Images/google.svg" />
-          <img src="/Images/pocket.svg" />
+          <img src="/images/spotify.svg" />
+          <img src="/images/apple.svg" />
+          <img src="/images/google.svg" />
+          <img src="/images/pocket.svg" />
           </div>
         </div>
       </div>
