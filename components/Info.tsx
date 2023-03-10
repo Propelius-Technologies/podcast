@@ -3,7 +3,7 @@ import EmailField from "./EmailField";
 
 const Info = () => {
   return (
-      <div className="xl:absolute lg:h-[509px] 2xl:left-[20rem] lg:bg-pod-dark xl:top-[20rem]  lg:top-[40rem] lg:left-[8rem]">
+      <div className="xl:absolute lg:bg-pod-dark xl:top-[30rem]  lg:top-[40rem] max-w-[700px]">
         {/* Holding text-info */}
         <div className="lg:pt-[93px]">
           {/* Heading */}
