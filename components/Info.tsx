@@ -4,7 +4,7 @@ import EmailField from "./EmailField";
 const Info = () => {
   return (
     <div>
-      <div className="absolute h-[509px] 2xl:left-[20rem] lg:bg-pod-dark xl:top-[20rem]  lg:top-[40rem] lg:left-[8rem]">
+      <div className="xl:absolute lg:h-[509px] 2xl:left-[20rem] lg:bg-pod-dark xl:top-[20rem]  lg:top-[40rem] lg:left-[8rem]">
         {/* Holding text-info */}
         <div className="md:pt-[93px]">
           {/* Heading */}
@@ -29,11 +29,13 @@ const Info = () => {
         {/* Input Fields */}
         <EmailField />
         {/* Supports */}
-        <div className="flex justify-center gap-10 mt-[10%] md:w-full md:justify-between items-baseline flex-wrap xl:gap-10 xl:w-[85%] lg:w-full lg:gap-10 lg:justify-center">
+        <div className="flex flex-wrap mb-5 justify-center gap-5 mt-[10%] md:w-full  xl:gap-10 xl:w-[85%] lg:w-full lg:gap-10 lg:justify-center">
+          <div className='mb-[15%] flex flex-wrap justify-center gap-6 items-center '>
           <img src="/Images/spotify.svg" />
           <img src="/Images/apple.svg" />
           <img src="/Images/google.svg" />
           <img src="/Images/pocket.svg" />
+          </div>
         </div>
       </div>
     </div>

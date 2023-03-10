@@ -36,7 +36,7 @@ const EmailField = () => {
     <div>
       <ToastContainer />
       <form>
-        <div className="flex w-[90%] flex-col md:flex md:flex-row my-10  lg:justify-center md:justify-center">
+        <div className=" relative flex w-[90%] flex-col md:flex md:flex-row my-10  lg:justify-center md:justify-center">
           <input
             className="hero__form__mobile md:hero__form focus:outline-none"
             onChange={(e) => setEmail(e.target.value)}
