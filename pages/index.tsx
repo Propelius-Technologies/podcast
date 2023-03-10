@@ -1,5 +1,4 @@
 import Background from "@/components/Background";
-import Footer from "@/components/Footer";
 import Info from "@/components/Info";
 import MaxWrapper from "@/components/MaxWrapper";
 import SecondaryWrapper from "@/components/SecondaryWrapper";

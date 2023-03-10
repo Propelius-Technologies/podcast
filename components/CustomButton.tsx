@@ -2,7 +2,7 @@ import { FormEvent } from "react";
 
 interface ButtonInterface {
   loading: boolean;
-  onClickHandler: () => FormEvent<HTMLInputElement>;
+  onClickHandler: () => Promise<void>;
 }
 
 const CustomButton: React.FC<ButtonInterface> = ({

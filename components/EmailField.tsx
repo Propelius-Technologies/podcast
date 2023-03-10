@@ -43,7 +43,10 @@ const EmailField = () => {
             type="email"
             placeholder="Your Email Address"
           />
-          <CustomButton loading={loading} onClickHandler={onClickHandler} />
+          <CustomButton
+            loading={loading}
+            onClickHandler={onClickHandler as () => Promise<void>}
+          />
         </div>
         <p>{error}</p>
       </form>
