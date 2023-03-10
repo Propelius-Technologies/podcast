@@ -8,7 +8,7 @@ const Info = () => {
         {/* Holding text-info */}
         <div className="md:pt-[93px]">
           {/* Heading */}
-          <div className="text-left text-[2rem] md:text-[3rem] tracking-normal lg:text-center md:text-center">
+          <div className="text-left text-[2rem] md:text-[3rem] tracking-normal lg:text-left md:text-center">
             <h1 className="text-pod-green font-chivo font-light uppercase">
               Publish your podcasts
             </h1>
@@ -19,7 +19,7 @@ const Info = () => {
           </div>
           {/* Text desc*/}
           <div>
-            <p className="text-left mt-1 text-[1rem] leading-[28px] text-pod-text-grey max-w-[26rem] md:max-w-[27rem] lg:text-center lg:max-w-full md:text-center md:max-w-full">
+            <p className="text-left mt-1 text-[1rem] leading-[28px] text-pod-text-grey max-w-[26rem] md:max-w-[27rem] lg:text-left lg:max-w-[50%] md:text-center md:max-w-full">
               Upload your audio to Pod with a single click. We’ll then
               distribute your podcast to Spotify, Apple Podcasts, Google
               Podcasts, Pocket Casts and more!
