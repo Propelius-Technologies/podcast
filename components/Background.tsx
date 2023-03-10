@@ -1,5 +1,5 @@
 import React from "react";
-import Dots from "./dots";
+import Dots from "./Dots";
 import Info from "./Info";
 
 const Background = () => {

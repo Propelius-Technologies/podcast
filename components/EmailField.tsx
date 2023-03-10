@@ -12,7 +12,7 @@ const EmailField = () => {
     setLoading(true);
     let regEmail = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
     if (regEmail.test(email)) {
-      const data = await fetch("/api/sub");
+      const data = await fetch("/api/subscribe");
       const response = await data.json();
       toast.success(response.message, {
         autoClose: 1500,
