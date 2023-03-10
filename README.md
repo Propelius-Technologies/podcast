@@ -9,7 +9,7 @@ $ npm install -g yarn
 ```
 ### Install
 ```bash
-$ git clone git@github.com:Propelius-Technologies/Coming_Soon.git
+$ git clone git@github.com:Propelius-Technologies/podcast.git
 $ cd PROJECT_TITLE
 $ yarn install
 ```
