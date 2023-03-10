@@ -38,8 +38,8 @@ body {
   font-weight: 700;
 }
 .hero_submit-btn {
-  position: absolute;
-  left: 50%;
+  /*position: absolute;*/
+  /*left: 50%;*/
   display: flex;
   justify-items: end;
   align-items: end;
