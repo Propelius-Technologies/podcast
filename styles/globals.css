@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@200;300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121725;
+}
+
+.hero__form {
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 2em;
+  background-color: #2c344b;
+  padding: 0.5625rem 2rem;
+  width: 73%;
+  height: 2.875rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hero__form__mobile {
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 2em;
+  background-color: #2c344b;
+  padding: 0.5625rem 2rem;
+  width: 100%;
+  height: 2.875rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.hero_submit-btn {
+  position: absolute;
+  left: 50%;
+  display: flex;
+  justify-items: end;
+  align-items: end;
+  padding: 9px 25px;
+  margin: 5px;
+  width: fit-content;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  border-radius: 2em;
+  background-color: #54e6af;
+  cursor: pointer;
+}
+
+.hero_submit-btn-mobile {
+  padding: 8px 25px;
+  margin: 5px;
+  width: fit-content;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+  border-radius: 2em;
+  background-color: #54e6af;
+  cursor: pointer;
+}
